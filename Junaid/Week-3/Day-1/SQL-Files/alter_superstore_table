@@ -1,0 +1,5 @@
+-- the import failed and I checked the failed logs and 
+-- it said product_name varchar 50 is not enough, so increasing to 100
+
+ALTER TABLE public.superstore
+ALTER COLUMN product_name TYPE VARCHAR(100)
