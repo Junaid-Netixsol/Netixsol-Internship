@@ -1,0 +1,45 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(jupyter nbconvert *)",
+      "Bash(python3 -c ' *)",
+      "Bash(cat /home/batbook/Work/Career/Netixsol/pyproject.toml *)",
+      "Read(//home/batbook/.config/Code/User/**)",
+      "Skill(keybindings-help)",
+      "Skill(keybindings-help:*)",
+      "Bash(cat /home/batbook/.config/Code/User/keybindings.json 2>/dev/null || echo \"FILE NOT FOUND\")",
+      "Bash(code --version)",
+      "Read(//usr/share/**)",
+      "Bash(grep -o '\"notebook\\\\.format[a-zA-Z.]*\"' /usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js | sort -u *)",
+      "Read(//usr/share/code/resources/app/out/vs/workbench/**)",
+      "Bash(grep -o '.\\\\{20\\\\}notebook\\\\.formatCell.\\\\{400\\\\}' /usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js | head -5)",
+      "Bash(pip show *)",
+      "Bash(python3 -c \"import mypy\")",
+      "Bash(/home/batbook/Work/Career/Netixsol/.venv/bin/python -c \"import mypy; print\\('mypy version:', mypy.version.__version__\\)\")",
+      "Bash(/home/batbook/Work/Career/Netixsol/.venv/bin/pip show *)",
+      "Bash(find /home/batbook/.vscode/extensions -maxdepth 1 -iname \"*mypy*\")",
+      "Read(//home/batbook/.vscode/extensions/**)",
+      "Bash(find /home/batbook/.vscode/extensions/charliermarsh.ruff-2026.56.0-linux-x64 -maxdepth 4 -type f 2>/dev/null | grep -iv \"\\\\.json\\\\|\\\\.md\\\\|\\\\.txt\\\\|LICENSE\" | head -30)",
+      "Read(//home/batbook/.vscode/extensions/charliermarsh.ruff-2026.56.0-linux-x64/**)",
+      "Bash(/home/batbook/.vscode/extensions/charliermarsh.ruff-2026.56.0-linux-x64/bundled/libs/bin/ruff --version)",
+      "Bash(mkdir -p ~/.config/ruff)",
+      "Bash(/home/batbook/.vscode/extensions/charliermarsh.ruff-2026.56.0-linux-x64/bundled/libs/bin/ruff check *)",
+      "Bash(touch test_ruff_scope.py)",
+      "Bash(echo 'def foo\\(x\\):')",
+      "Bash(echo '    return x')",
+      "Bash(cat)",
+      "Read(//home/batbook/.config/ruff/**)",
+      "Bash(/home/batbook/.local/bin/uv tool *)",
+      "Bash(~/.local/bin/mypy --version)",
+      "Read(//home/batbook/.vscode/extensions/matangover.mypy-0.4.2/**)",
+      "Bash(/home/batbook/Work/Career/Netixsol/.venv/bin/python -c \"import pandas; print\\(pandas.__file__\\)\")",
+      "Skill(dataviz)",
+      "Skill(dataviz:*)",
+      "Bash(python3)"
+    ],
+    "additionalDirectories": [
+      "/home/batbook/.config/Code/User",
+      "/home/batbook/.config/ruff"
+    ]
+  }
+}

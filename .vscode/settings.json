@@ -1,3 +1,4 @@
 {
-    "ruff.importStrategy": "useBundled"
+    "ruff.importStrategy": "useBundled",
+    "mypy.extraArguments": ["--python-executable", "${workspaceFolder}/.venv/bin/python"]
 }
