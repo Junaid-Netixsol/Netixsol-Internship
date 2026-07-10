@@ -101,7 +101,7 @@
 
 -----------------------------------------------------------------------------
 
--- -- Find the store with the highest total revenue using a subquery in the WHERE clause.
+-- Find the store with the highest total revenue using a subquery in the WHERE clause.
 
 -- SELECT s.store_id
 -- FROM store s
